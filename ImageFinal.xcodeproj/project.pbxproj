@@ -16,6 +16,7 @@
 		256C5A762A21AB44008C523E /* ImageFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A752A21AB44008C523E /* ImageFinalTests.swift */; };
 		256C5A802A21AB44008C523E /* ImageFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A7F2A21AB44008C523E /* ImageFinalUITests.swift */; };
 		256C5A822A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A812A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift */; };
+		256C5A8F2A21C6D8008C523E /* ImageTextingViewe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		256C5A7B2A21AB44008C523E /* ImageFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		256C5A7F2A21AB44008C523E /* ImageFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFinalUITests.swift; sourceTree = "<group>"; };
 		256C5A812A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextingViewe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				256C5A5E2A21AB43008C523E /* AppDelegate.swift */,
+				256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */,
 				256C5A602A21AB43008C523E /* SceneDelegate.swift */,
 				256C5A622A21AB43008C523E /* ViewController.swift */,
 				256C5A642A21AB43008C523E /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256C5A8F2A21C6D8008C523E /* ImageTextingViewe.swift in Sources */,
 				256C5A632A21AB43008C523E /* ViewController.swift in Sources */,
 				256C5A5F2A21AB43008C523E /* AppDelegate.swift in Sources */,
 				256C5A612A21AB43008C523E /* SceneDelegate.swift in Sources */,
@@ -442,6 +446,8 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageFinal/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +476,8 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageFinal/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
