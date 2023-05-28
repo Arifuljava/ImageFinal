@@ -17,6 +17,8 @@
 		256C5A802A21AB44008C523E /* ImageFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A7F2A21AB44008C523E /* ImageFinalUITests.swift */; };
 		256C5A822A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A812A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift */; };
 		256C5A8F2A21C6D8008C523E /* ImageTextingViewe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */; };
+		25A72FC92A234D12008E4E0B /* TestingPrintSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 25A72FC82A234D12008E4E0B /* TestingPrintSDK */; };
+		25A72FCB2A23591D008E4E0B /* WifiListViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A72FCA2A23591D008E4E0B /* WifiListViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		256C5A7F2A21AB44008C523E /* ImageFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFinalUITests.swift; sourceTree = "<group>"; };
 		256C5A812A21AB44008C523E /* ImageFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextingViewe.swift; sourceTree = "<group>"; };
+		25A72FCA2A23591D008E4E0B /* WifiListViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A72FC92A234D12008E4E0B /* TestingPrintSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +105,11 @@
 		256C5A5D2A21AB43008C523E /* ImageFinal */ = {
 			isa = PBXGroup;
 			children = (
-				256C5A5E2A21AB43008C523E /* AppDelegate.swift */,
 				256C5A8E2A21C6D8008C523E /* ImageTextingViewe.swift */,
 				256C5A602A21AB43008C523E /* SceneDelegate.swift */,
 				256C5A622A21AB43008C523E /* ViewController.swift */,
+				25A72FCA2A23591D008E4E0B /* WifiListViewer.swift */,
+				256C5A5E2A21AB43008C523E /* AppDelegate.swift */,
 				256C5A642A21AB43008C523E /* Main.storyboard */,
 				256C5A672A21AB44008C523E /* Assets.xcassets */,
 				256C5A692A21AB44008C523E /* LaunchScreen.storyboard */,
@@ -146,6 +151,9 @@
 			dependencies = (
 			);
 			name = ImageFinal;
+			packageProductDependencies = (
+				25A72FC82A234D12008E4E0B /* TestingPrintSDK */,
+			);
 			productName = ImageFinal;
 			productReference = 256C5A5B2A21AB43008C523E /* ImageFinal.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 256C5A522A21AB43008C523E;
+			packageReferences = (
+				25A72FC72A234D12008E4E0B /* XCRemoteSwiftPackageReference "TestingPrintSDK" */,
+			);
 			productRefGroup = 256C5A5C2A21AB43008C523E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A72FCB2A23591D008E4E0B /* WifiListViewer.swift in Sources */,
 				256C5A8F2A21C6D8008C523E /* ImageTextingViewe.swift in Sources */,
 				256C5A632A21AB43008C523E /* ViewController.swift in Sources */,
 				256C5A5F2A21AB43008C523E /* AppDelegate.swift in Sources */,
@@ -446,8 +458,10 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageFinal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = 1.0;
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,8 +490,10 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImageFinal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = 1.0;
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -632,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25A72FC72A234D12008E4E0B /* XCRemoteSwiftPackageReference "TestingPrintSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Arifuljava/TestingPrintSDK.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25A72FC82A234D12008E4E0B /* TestingPrintSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25A72FC72A234D12008E4E0B /* XCRemoteSwiftPackageReference "TestingPrintSDK" */;
+			productName = TestingPrintSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 256C5A532A21AB43008C523E /* Project object */;
 }

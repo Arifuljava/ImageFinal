@@ -108,7 +108,7 @@ class ViewController: UIViewController ,   CBCentralManagerDelegate, CBPeriphera
                           let devicename = peripheral.identifier.uuidString
                         
                      
-                         let sec = storyboard?.instantiateViewController(identifier: "cccccc") as! ImageTextingViewe
+                         let sec = storyboard?.instantiateViewController(identifier: "wifi") as! WifiListViewer
                                                         present(sec,animated: true)
                          
                           
